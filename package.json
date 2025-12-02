@@ -1,18 +1,25 @@
 {
 	"scripts": {
-		"dev":"nodemon src/server.ts"
+		"dev": "nodemon src/server.ts"
 	},
 	"devDependencies": {
 		"@types/cors": "^2.8.19",
 		"@types/express": "^5.0.5",
 		"@types/node": "^24.10.1",
+		"drizzle-kit": "^0.31.7",
 		"nodemon": "^3.1.11",
 		"ts-node": "^10.9.2",
+		"tsx": "^4.21.0",
 		"typescript": "^5.9.3"
 	},
 	"dependencies": {
+		"@neondatabase/serverless": "^1.0.2",
+		"@types/dotenv": "^8.2.3",
 		"cors": "^2.8.5",
 		"dotenv": "^17.2.3",
-		"express": "^5.2.0"
+		"drizzle-orm": "^0.44.7",
+		"express": "^5.2.0",
+		"pg": "^8.16.3",
+		"postgres": "^3.4.7"
 	}
 }
