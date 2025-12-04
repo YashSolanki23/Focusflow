@@ -11,7 +11,7 @@ export const users= pgTable("users",{
   role:varchar("role").default("user"),
   created_At:timestamp("created_At").defaultNow(),
 
-})
+});
 export const tasks= pgTable("tasks",{
   id:uuid("id").primaryKey().notNull().defaultRandom(),
   userId:uuid("user_id").notNull(),
@@ -19,4 +19,4 @@ export const tasks= pgTable("tasks",{
   priority:integer("priority").default(1),
   completed:boolean("completed").default(false),
   created_At:timestamp("created_at").defaultNow()
-})
+});
