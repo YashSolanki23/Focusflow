@@ -8,6 +8,20 @@
       "when": 1764698529907,
       "tag": "0000_cloudy_dazzler",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1764953231792,
+      "tag": "0001_living_ma_gnuci",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1764953399255,
+      "tag": "0002_skinny_magma",
+      "breakpoints": true
     }
   ]
 }

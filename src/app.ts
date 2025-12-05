@@ -1,6 +1,6 @@
-import express, { Application } from 'express'
-import cors from 'cors'
-export function createApp():Application{
+import express from "express"
+import cors from "cors"
+export function createApp(){
 
   const app=express();
   app.use(cors());
