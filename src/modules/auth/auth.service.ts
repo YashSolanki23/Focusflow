@@ -56,9 +56,7 @@ export async function loginUser(email: string, password: string) {
   return {
     user: {
       id: user.id,
-      email: user.email,
-      role: user.role,
-      created_At: user.created_At,
+    
     },
     access,
     refresh,

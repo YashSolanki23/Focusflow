@@ -9,7 +9,7 @@ const port = process.env.PORT || 4000;
 
 function start() {
   const app = createApp();
- app.use("/auth",authRoutes);
+
   app.listen(port, () => {
     console.log(`Server is running at ${port}`);
   });
